@@ -9,14 +9,14 @@ what you discover.**
 
 ## Install and use
 
-Clone this repository:
+Install with the GitHub CLI:
 
 ```sh
-git clone https://github.com/Corvidae-Coding-Projects/real-testing.git
+gh skill install Corvidae-Coding-Projects/real-testing real-testing
 ```
 
-Place the resulting `real-testing` folder in your agent's skills directory.
-Keep `SKILL.md`, `agents/`, and `assets/` together. The agent needs access to the
+Or copy `skills/real-testing/` into your agent's skills directory. Keep
+`SKILL.md`, `agents/`, and `assets/` together. The agent needs access to the
 program's build tools, runtime dependencies, and interface.
 
 For an agent that supports named skills, ask:
@@ -70,7 +70,7 @@ A missing dependency or inaccessible interface is reported as **BLOCKED**.
 The skill uses the permissions already granted to the agent and calls for
 isolated test data or sandboxes when operations have external effects.
 
-The full instructions are in [SKILL.md](SKILL.md).
+The full instructions are in [SKILL.md](skills/real-testing/SKILL.md).
 
 ## License
 
