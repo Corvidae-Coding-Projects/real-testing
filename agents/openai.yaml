@@ -1,0 +1,15 @@
+interface:
+  display_name: Real Testing
+  short_description: Exercise real features and explore their failure modes
+  default_prompt: Use $real-testing to build and run this program, exercise the changed
+    feature, explore varied inputs and action sequences, check independent invariants,
+    and preserve reproducible failures.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
