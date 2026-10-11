@@ -1,6 +1,9 @@
 ---
 name: real-testing
 description: Verify software changes by building and running the actual program, exercising its real interfaces, systematically generating varied inputs and action sequences, checking independent requirements and invariants, and preserving reproducible failures for regression replay. Use after implementing a feature or bug fix, when asked to test that software actually works or discover missed bugs, or when replacing routine unit-test generation with direct behavioral verification. Support CLI programs, services, web and desktop interfaces, libraries, and background jobs.
+license: MIT
+metadata:
+  author: Corvidae-Coding-Projects
 ---
 
 # Real Testing
